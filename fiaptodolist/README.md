@@ -320,25 +320,7 @@ A aplicação será iniciada pela `MainActivity` e a navegação será carregada
 
 ---
 
-## Evidências
+<img width="277" height="356" alt="image" src="https://github.com/user-attachments/assets/a4654476-cd7b-442b-b1d2-a394d67f9b9c" />
 
-As imagens abaixo apresentam as evidências produzidas durante a atividade.
+<img width="285" height="269" alt="image" src="https://github.com/user-attachments/assets/e341130b-6cc4-40ec-abe9-977093698b4a" />
 
-### Evidência 1 — Estrutura do projeto e implementação
-
-evidencias/01-estrutura-projeto.png
-
-### Evidência 2 — Lista de tarefas
-
-evidencias/02-lista-tarefas.png
-
-### Evidência 3 — Cadastro de tarefa
-evidencias/03-cadastro-tarefa.png
-
-### Evidência 4 — Edição de tarefa
-
-evidencias/04-edicao-tarefa.png
-
-### Evidência 5 — Navegação entre as telas
-
-evidencias/05-navegacao.png
