@@ -14,6 +14,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.climaapp.ui.theme.ClimaappTheme
 
 import dagger.hilt.android.AndroidEntryPoint
+import com.example.climaapp.ui.navigation.ClimaNavHost
+
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -23,28 +25,9 @@ class MainActivity : ComponentActivity() {
         setContent {
             ClimaappTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
+                    ClimaNavHost(innerPadding = innerPadding)
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    ClimaappTheme {
-        Greeting("Android")
     }
 }
